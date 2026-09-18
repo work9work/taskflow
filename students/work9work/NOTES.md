@@ -16,3 +16,13 @@
  
 ## Git Workflow 
 Daily workflow: update develop, create a feature branch, work, commit, push, and create a PR to develop. 
+
+## Git Flow branch table
+
+| Branch | From | To | Purpose |
+|---|---|---|---|
+| main | — | — | Стабильная версия проекта |
+| develop | main | — | Интеграция изменений для следующего релиза |
+| feature/* | develop | develop | Разработка отдельной задачи или функции |
+| release/* | develop | main + develop | Подготовка и стабилизация релиза |
+| hotfix/* | main | main + develop | Срочное исправление ошибки в стабильной версии |
