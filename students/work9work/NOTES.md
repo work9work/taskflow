@@ -13,3 +13,6 @@
 3. feature/* создаётся от develop и после работы сливается обратно в develop через PR. 
 4. release/* создаётся от develop для подготовки релиза и сливается в main и develop. 
 5. hotfix/* создаётся от main для срочного исправления и сливается в main и develop. 
+ 
+## Git Workflow 
+Daily workflow: update develop, create a feature branch, work, commit, push, and create a PR to develop. 
